@@ -22,7 +22,7 @@ public class Board {
         if(current == null) {
             return;
         }
-        if(numToRow > rows) {
+        if(numToRow == cols) {
             System.out.println("");
             numToRow = 0;
         }
